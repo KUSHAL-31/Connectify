@@ -1,0 +1,99 @@
+.navbar__container {
+  height: 60px;
+  width: 100%;
+  background-color: var(--nav-bg-dark);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar__left {
+  flex: 3;
+}
+
+.navbar__left a {
+  color: var(--nav-content);
+}
+
+.navbar__left #logo {
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar__left #logo span {
+  color: orange;
+}
+
+.navbar__center {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar .search__icon {
+  font-size: 25px !important;
+  margin: 0 10px;
+}
+
+.search__input {
+  border: none;
+  width: 70%;
+}
+
+.navbar__right {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.navbar__icons {
+  display: flex;
+}
+
+.navbar__icon__item {
+  margin-left: 18px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar__icon__item:first-child {
+  margin-left: 60px;
+}
+
+.navbar__icon__item .icon__badge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--notify-color);
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+  top: -5px;
+  right: -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.profile__pic {
+  height: 45px !important;
+  width: 45px !important;
+  background-color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
